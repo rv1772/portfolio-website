@@ -11,7 +11,8 @@
 *
 * ======================================================= */
 body {
-  font-family: "Space Mono", Arial, serif;
+  /* font-family: "Space Mono", Arial, serif; */
+  font-family: 'Franklin Gothic Medium';
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
@@ -532,7 +533,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 40px;
   left: 50%;
   margin-left: -21px;
-  background-color: #FF9000;
+  background-color: rgb(236, 87, 112);
   z-index: 100;
   display: table;
   -webkit-border-radius: 50%;
@@ -1291,3 +1292,16 @@ input[type="text"] {
 }
 
 /*# sourceMappingURL=style.css.map */
+.col-md-6 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Optional: Centers the items vertically */
+}
+
+ul {
+  margin: 0; /* Remove default margin if needed */
+}
+
+img {
+  max-width: 100%; /* Ensures the image doesn't overflow */
+}
