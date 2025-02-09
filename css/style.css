@@ -339,13 +339,13 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 40%;
   display: inline-block;
   float: left;
-  color: #000;
+  color: black;
   font-weight: bold;
 }
 .info li .second-block {
   width: 60%;
   display: inline-block;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgb(79, 20, 20);
 }
 
 .fh5co-social-icons {
@@ -590,7 +590,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 20px;
   font-size: 16px;
   font-weight: normal;
-  color: #bfbfbf;
+  color: grey;
 }
 
 .timeline-body > p,
@@ -1295,13 +1295,20 @@ input[type="text"] {
 .col-md-6 {
   display: flex;
   justify-content: space-between;
-  align-items: center; /* Optional: Centers the items vertically */
+  align-items: center;
 }
 
-ul {
-  margin: 0; /* Remove default margin if needed */
+.leader-image{
+  position: relative;
+  right: -100px;
 }
 
-img {
-  max-width: 100%; /* Ensures the image doesn't overflow */
+.img-fluid{
+  width: 400px;
+  height: 400px;
 }
+
+.leader-copy{
+  margin-top: 200px;
+}
+

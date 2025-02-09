@@ -129,7 +129,7 @@
 .icon-shield:before {
     content: "\e022";
 }
-.icon-trophy:    {
+.icon-trophy:before{
     content: "\e023";
 }
 .icon-flag:before {
