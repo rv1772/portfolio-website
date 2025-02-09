@@ -709,6 +709,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .work {
+  cursor: pointer;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1304,8 +1305,8 @@ input[type="text"] {
 }
 
 .img-fluid{
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 600px;
 }
 
 .leader-copy{
