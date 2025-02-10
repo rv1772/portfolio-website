@@ -711,7 +711,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .work {
   cursor: pointer;
   background-size: cover;
-  background-position: center center;
+  background-position: center 2%;
   background-repeat: no-repeat;
   position: relative;
   height: 270px;
